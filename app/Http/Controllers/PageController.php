@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Voyage;
 
 class PageController extends Controller
 {
@@ -11,6 +12,9 @@ class PageController extends Controller
     }
 
     public function soggiorni(){
-        return view('soggiorni');
+
+        $voyages = Voyage::paginate(10);
+
+        return view('soggiorni',['voyages' => $voyages]);
     }
 }
