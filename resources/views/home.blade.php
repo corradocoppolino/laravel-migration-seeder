@@ -2,11 +2,12 @@
 
 @section('content')
 
-    <section class="container mt-5">
+    <section>
     
-        <h1>Viaggi</h1>
-
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+        <div class="jumbotron text-center">
+            <h1>BOOKLEAN.COM</h1> 
+            <p>Il tuo compagno di viaggio</p>
+            <img src="https://technoblitz.it/wp-content/uploads/2018/06/immagini-4k.jpg" alt=""></div>
     
     </section>
 

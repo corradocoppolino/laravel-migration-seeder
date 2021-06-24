@@ -14,7 +14,7 @@
         <a class="nav-link" href="{{route('soggiorni')}}">Soggiorni</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Voli</a>
+        <a class="nav-link" href="{{route('voli')}}">Voli</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Volo + Hotel</a>
